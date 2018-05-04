@@ -1,13 +1,18 @@
 {
-    "name": "kamranahmedse/laravel-censor",
+    "name": "ITwrx/laravel-censor",
     "description": "A middleware to censor certain words from your pages",
-    "keywords": ["kamranahmedse", "laravel-censor", "route", "middleware", "censor", "laravel", "redact", "censor-pages"],
+    "keywords": ["ITwrx", "laravel-censor", "route", "middleware", "censor", "laravel", "redact", "censor-pages"],
     "license": "MIT",
     "authors": [
         {
             "name": "Kamran Ahmed",
             "email": "kamranahmed.se@gmail.com",
             "homepage": "https://kamranahmed.info",
+            "role": "Developer"
+        },
+        {
+            "name": "ITwrx",
+            "homepage": "https://itwrx.org",
             "role": "Developer"
         }
     ],
