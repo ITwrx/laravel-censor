@@ -20,5 +20,12 @@
             "KamranAhmed\\LaravelCensor\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "extra": {
+    "laravel": {
+        "providers": [
+            "KamranAhmed\LaravelCensor\LaravelCensorServiceProvider"
+        ]        
+    }
+}
 }
