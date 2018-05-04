@@ -7,6 +7,8 @@ A laravel middleware that will automatically censor the words that you will spec
 ## Installation
 Perform the following operations in order to use this middleware
 - Run `composer require kamranahmedse/laravel-censor` in your terminal
+
+**if ($framework < L5.5) {**
 - **Add Service Provider** 
    Open `config/app.php` and add `KamranAhmed\LaravelCensor\LaravelCensorServiceProvider::class` to the end of `providers` array:
 
@@ -16,6 +18,7 @@ Perform the following operations in order to use this middleware
         KamranAhmed\LaravelCensor\LaravelCensorServiceProvider::class,
     ),
     ```
+    **}**
 
 - **Register the Middleware** After that open the file `app/Http/Kernel.php` and add the following 
 
