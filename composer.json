@@ -22,14 +22,14 @@
     },
     "autoload": {
         "psr-4": {
-            "ITwrx\\LaravelCensor\\": "src/"
+            "KamranAhmed\\LaravelCensor\\": "src/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
     "laravel": {
         "providers": [
-            "ITwrx\\LaravelCensor\\LaravelCensorServiceProvider"
+            "KamranAhmed\\LaravelCensor\\LaravelCensorServiceProvider"
         ]        
     }
 }
