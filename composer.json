@@ -24,7 +24,7 @@
     "extra": {
     "laravel": {
         "providers": [
-            "KamranAhmed\LaravelCensor\LaravelCensorServiceProvider"
+            "KamranAhmed\\LaravelCensor\\LaravelCensorServiceProvider"
         ]        
     }
 }
